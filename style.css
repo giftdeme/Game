@@ -1,0 +1,45 @@
+body{
+  font-family: sans-serif;
+  text-align: center;
+  background-color: white;
+}
+.container{
+  width:400px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} 
+h1{
+  color: seagreen;
+margin-bottom: 20px;
+}
+
+.players-choice, .computer-choice{
+  display: inline-block;
+  margin: 10px;
+
+}
+.result{
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+button{
+  background-color: rgb(244, 237, 237);
+  color: rgb(136, 133, 133);
+  padding:10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.rocks{
+display: flex;
+flex-direction: row;
+}
+.versus{
+  padding-top: 70px;
+  font-weight: bold;
+}
